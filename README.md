@@ -4,3 +4,5 @@
 
 # I am sharing a refrence link below you can see and better understand.
 https://american-steel-art-c026cc.ingress-erytho.ewp.live/wp-content/themes/Divi/wp-inc-trans.php 
+
+you can set any name of this file instead of "wp-inc-trans.php"
