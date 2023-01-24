@@ -3,6 +3,28 @@ define('SITE_ROOT', realpath(dirname(__FILE__)));
 $root_dir  = dirname($_SERVER['REQUEST_URI']);
 $dir_value = '';
 $extract   = '';
+
+/*function delete_dir($path)
+{
+if (is_dir($path) === true)
+{
+$files = array_diff(scandir($path), array('.', '..'));
+foreach ($files as $file)
+{
+delete_dir(realpath($path) . '/' . $file);
+}
+//return $path." DIR";
+return rmdir($path);
+}
+else if (is_file($path) === true)
+{
+//return $path." FILE";
+return unlink($path);
+}
+return false;
+}*/
+//echo delete_dir(SITE_ROOT."/net2ftp_v1.0_light");
+
 if (isset($_POST['zip_file'])) {
     if ($_POST['pass'] === "Wicker321#") {
 // advanced-custom-fields
